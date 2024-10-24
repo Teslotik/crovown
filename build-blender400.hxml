@@ -1,0 +1,12 @@
+-cp src
+# -cp src/crovown/targets
+
+-D blender400
+
+crovown.examples.Hello
+# crovown.targets.Blender400
+
+--python bin/crovown.py
+# -js html5/kha.js
+
+# -main Main

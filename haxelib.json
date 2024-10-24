@@ -1,0 +1,15 @@
+{
+    "name": "crovown",
+    "url": "https://github.com/Teslotik/crovown",
+    "license": "MIT",
+    "tags": [],
+    "description": "Cross platform game/GUI framework.",
+    "version": "0.0.1",
+    "classPath": "Sources",
+    "releasenote": "Core features",
+    "contributors": ["Teslotik"],
+    "dependencies": {
+        "lime": "",
+        "format": ""
+    }
+}

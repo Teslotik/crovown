@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<!-- @todo change -->
+	<meta title="Hello World" package="org.openfl.lime.samples.helloworld" version="1.0.0" company="OpenFL" />
+	<!-- <app main="crovown.Main" path="Export" file="Crovown" /> -->
+	<app main="crovown.application.LimeApplication.LimeMain" path="Export" file="Crovown" />
+
+	<!-- @todo добавить define который включает редактор -->
+
+	<define name="editor" />
+
+	<haxeflag name="--macro" value='include("crovown.event")' />
+	<haxeflag name="--macro" value='include("crovown.component")' />
+	<haxeflag name="--macro" value='include("crovown.plugin")' />
+
+	<haxelib name="format" version="3.7.0" />
+
+	<source path="Sources" />
+	
+	<haxelib name="lime" />
+	
+	<!-- <assets path="Assets" rename="assets" /> -->
+	
+</project>
